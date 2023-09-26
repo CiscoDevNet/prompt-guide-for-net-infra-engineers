@@ -37,8 +37,17 @@ If you can send instructions to `system` role, you can use the following Instruc
 * You are a network troubleshooting tool
 * You are a Cisco device analyzer
 
-
 Prompt sample:
 Generate the configuration on a [Device name] with ip address of 192.168.1.1. Generate the configuration on a [Cisco device name] for a static route to destination 10.10.10.10/24 using interface [name of the interface]
 
+## How do we avoid model hallucinations?
 
+### Guided generation
+Suppose you want to generate JSON, YAML, or another structured data format. You can paste as a part of the prompt structure with the field's name to narrow down the options for the model to generate appropriate key-value pairs and specify the proper structure. The output file will contain the necessary structure, fields, and generated content in this case.
+
+The main idea is to allow the model to express her insecurities.
+
+### Alternative option
+In case you need to classify something, add to your class of list option `Other`.
+
+In the instruction, add if the model doesn't know the answer or can't generate part of it, write about this. 
