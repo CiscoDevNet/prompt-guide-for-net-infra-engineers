@@ -1,7 +1,7 @@
 # Prompt guide for network engineers, infrastructure developers
 
 AI assistants and large language models (LLMs) can also help network engineers, and infrastructure developers to accelerate their work, troubleshoots, error handling, config file validations, etc.
-All these models expect as an input related text with your request and questions/instructions. Text with related descriptions and questions for AI assistants and large language models called - **prompt**.
+All these models expect as an input related text with your request and questions/instructions. Text with related descriptions and questions for AI assistants and large language models called - **prompt**. As a result of LLM works we received **completion**.
 
 ## Disclaimer
 You must always pay attention to model output and analyze it before applying answers to your devices or networks.
